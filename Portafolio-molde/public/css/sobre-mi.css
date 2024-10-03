@@ -1,0 +1,37 @@
+.about {
+    padding: 5rem 9%;
+}
+
+.about h2 {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-text, .about-info {
+    flex-basis: 48%;
+}
+
+.about-text p {
+    font-size: 1.8rem;
+    line-height: 1.6;
+}
+
+.about-info ul {
+    list-style-type: none;
+}
+
+.about-info li {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.about-info strong {
+    color: #b74b4b;
+}

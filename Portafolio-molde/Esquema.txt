@@ -1,0 +1,28 @@
+Portafolio/
+│   index.html
+│   script.js
+│   style.css
+│
+└───public/
+    ├───html/
+    │       sobre-mi.html
+    │       proyectos.html
+    │       habilidades.html
+    │       experiencia.html
+    │       contacto.html
+    │
+    ├───css/
+    │       sobre-mi.css
+    │       proyectos.css
+    │       habilidades.css
+    │       experiencia.css
+    │       contacto.css
+    │
+    ├───js/
+    │       sobre-mi.js
+    │       proyectos.js
+    │       habilidades.js
+    │       experiencia.js
+    │       contacto.js
+    │
+    └───img/

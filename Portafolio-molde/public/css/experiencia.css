@@ -1,0 +1,79 @@
+/* Estilos para la sección de experiencia */
+.experience {
+    padding: 5rem 9%;
+}
+
+.experience h2 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: #333;
+}
+
+.experience-item {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.experience-item h3 {
+    font-size: 2rem;
+    color: #b74b4b;
+    margin-bottom: 1rem;
+}
+
+.experience-item p {
+    font-size: 1.6rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.experience-item ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.experience-item li {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.experience-item li::before {
+    content: "\2022";
+    color: #b74b4b;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .experience {
+        padding: 3rem 5%;
+    }
+
+    .experience h2 {
+        font-size: 2.5rem;
+    }
+
+    .experience-item {
+        padding: 1.5rem;
+    }
+
+    .experience-item h3 {
+        font-size: 1.8rem;
+    }
+
+    .experience-item p,
+    .experience-item li {
+        font-size: 1.4rem;
+    }
+}

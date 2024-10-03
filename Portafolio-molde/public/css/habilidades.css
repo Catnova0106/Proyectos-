@@ -1,0 +1,72 @@
+/* Estilos para la página de habilidades */
+
+
+.skills {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 100px; /* Añadimos espacio en la parte superior */
+}
+
+.skills h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.skills h2 span {
+    color: #b74b4b;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill-category {
+    flex-basis: calc(50% - 20px);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.skill-category h3 {
+    color: #b74b4b;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.skill-category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill-category li {
+    margin-bottom: 5px;
+    padding-left: 20px;
+    position: relative;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.skill-category li::before {
+    content: "\2022";
+    color: #b74b4b;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+@media (max-width: 600px) {
+    .skills {
+        padding-top: 80px; /* Ajustamos el padding para pantallas más pequeñas */
+    }
+
+    .skill-category {
+        flex-basis: 100%;
+    }
+}
