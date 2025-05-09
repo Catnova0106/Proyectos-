@@ -2,7 +2,7 @@ let list = document.querySelectorAll('.carousel .list .item');
 let carousel = document.querySelector('.carousel');
 let next = document.getElementById('next');
 let prev = document.getElementById('prev');
-
+//rutas de diseño
 let mockup = document.querySelector('.mockup');
 
 let count = list.length;
